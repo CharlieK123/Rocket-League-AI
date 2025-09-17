@@ -99,3 +99,4 @@ if __name__ == "__main__":
                       log_to_wandb=False)
     learner.learn()
     print('do you see this')
+    print('yes')
