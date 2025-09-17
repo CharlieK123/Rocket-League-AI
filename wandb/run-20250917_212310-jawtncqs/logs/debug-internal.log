@@ -1,0 +1,10 @@
+{"time":"2025-09-17T21:23:13.0568958+10:00","level":"INFO","msg":"stream: starting","core version":"0.21.4"}
+{"time":"2025-09-17T21:23:30.2581451+10:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": unexpected EOF"}
+{"time":"2025-09-17T21:23:48.2694969+10:00","level":"INFO","msg":"stream: created new stream","id":"jawtncqs"}
+{"time":"2025-09-17T21:23:48.2694969+10:00","level":"INFO","msg":"stream: started","id":"jawtncqs"}
+{"time":"2025-09-17T21:23:48.2694969+10:00","level":"INFO","msg":"handler: started","stream_id":"jawtncqs"}
+{"time":"2025-09-17T21:23:48.2694969+10:00","level":"INFO","msg":"writer: started","stream_id":"jawtncqs"}
+{"time":"2025-09-17T21:23:48.2694969+10:00","level":"INFO","msg":"sender: started","stream_id":"jawtncqs"}
+{"time":"2025-09-17T21:24:07.5990789+10:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/charliekerr07-rl/rlbot-ppo/jawtncqs/file_stream\": unexpected EOF"}
+{"time":"2025-09-17T21:24:28.8328221+10:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/charliekerr07-rl/rlbot-ppo/jawtncqs/file_stream\": unexpected EOF"}
+{"time":"2025-09-17T21:27:36.3496876+10:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}

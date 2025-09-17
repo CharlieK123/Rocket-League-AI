@@ -1,0 +1,7 @@
+{"time":"2025-09-17T21:07:56.1611711+10:00","level":"INFO","msg":"stream: starting","core version":"0.21.4"}
+{"time":"2025-09-17T21:08:01.8200181+10:00","level":"INFO","msg":"stream: created new stream","id":"sp0ns45n"}
+{"time":"2025-09-17T21:08:01.8200181+10:00","level":"INFO","msg":"stream: started","id":"sp0ns45n"}
+{"time":"2025-09-17T21:08:01.8200181+10:00","level":"INFO","msg":"writer: started","stream_id":"sp0ns45n"}
+{"time":"2025-09-17T21:08:01.8200181+10:00","level":"INFO","msg":"sender: started","stream_id":"sp0ns45n"}
+{"time":"2025-09-17T21:08:01.8200181+10:00","level":"INFO","msg":"handler: started","stream_id":"sp0ns45n"}
+{"time":"2025-09-17T21:08:33.2071836+10:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/charliekerr07-rl/rlbot-ppo/sp0ns45n/file_stream\": http2: client conn could not be established"}

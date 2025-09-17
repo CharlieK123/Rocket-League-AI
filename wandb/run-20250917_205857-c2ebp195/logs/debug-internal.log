@@ -1,0 +1,12 @@
+{"time":"2025-09-17T20:59:00.0223445+10:00","level":"INFO","msg":"stream: starting","core version":"0.21.4"}
+{"time":"2025-09-17T20:59:02.752395+10:00","level":"INFO","msg":"stream: created new stream","id":"c2ebp195"}
+{"time":"2025-09-17T20:59:02.752395+10:00","level":"INFO","msg":"stream: started","id":"c2ebp195"}
+{"time":"2025-09-17T20:59:02.752395+10:00","level":"INFO","msg":"writer: started","stream_id":"c2ebp195"}
+{"time":"2025-09-17T20:59:02.752395+10:00","level":"INFO","msg":"sender: started","stream_id":"c2ebp195"}
+{"time":"2025-09-17T20:59:02.752395+10:00","level":"INFO","msg":"handler: started","stream_id":"c2ebp195"}
+{"time":"2025-09-17T21:00:04.9782984+10:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-09-17T21:00:10.3089924+10:00","level":"INFO","msg":"stream: closing","id":"c2ebp195"}
+{"time":"2025-09-17T21:00:11.7343222+10:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-09-17T21:00:15.5928292+10:00","level":"INFO","msg":"handler: closed","stream_id":"c2ebp195"}
+{"time":"2025-09-17T21:00:15.5933361+10:00","level":"INFO","msg":"sender: closed","stream_id":"c2ebp195"}
+{"time":"2025-09-17T21:00:15.5933361+10:00","level":"INFO","msg":"stream: closed","id":"c2ebp195"}

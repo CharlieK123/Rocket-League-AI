@@ -1,0 +1,11 @@
+{"time":"2025-09-17T20:59:00.4860273+10:00","level":"INFO","msg":"stream: starting","core version":"0.21.4"}
+{"time":"2025-09-17T20:59:07.4575528+10:00","level":"INFO","msg":"stream: created new stream","id":"htbab2qp"}
+{"time":"2025-09-17T20:59:07.4575528+10:00","level":"INFO","msg":"stream: started","id":"htbab2qp"}
+{"time":"2025-09-17T20:59:07.4575528+10:00","level":"INFO","msg":"sender: started","stream_id":"htbab2qp"}
+{"time":"2025-09-17T20:59:07.4575528+10:00","level":"INFO","msg":"handler: started","stream_id":"htbab2qp"}
+{"time":"2025-09-17T20:59:07.4575528+10:00","level":"INFO","msg":"writer: started","stream_id":"htbab2qp"}
+{"time":"2025-09-17T21:00:10.3089924+10:00","level":"INFO","msg":"stream: closing","id":"htbab2qp"}
+{"time":"2025-09-17T21:00:11.3773532+10:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-09-17T21:00:15.9672828+10:00","level":"INFO","msg":"handler: closed","stream_id":"htbab2qp"}
+{"time":"2025-09-17T21:00:15.9677977+10:00","level":"INFO","msg":"sender: closed","stream_id":"htbab2qp"}
+{"time":"2025-09-17T21:00:15.9677977+10:00","level":"INFO","msg":"stream: closed","id":"htbab2qp"}

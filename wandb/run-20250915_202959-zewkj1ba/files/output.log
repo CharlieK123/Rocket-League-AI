@@ -1,0 +1,29 @@
+Using device cpu
+Initializing processes...
+100%|██████████| 32/32 [00:00<00:00, 146.41it/s]
+Initializing PPO...
+Trainable Parameters:
+Component  Count
+--------------------
+Policy     158736
+Critic     154881
+--------------------
+Total      313617
+Current Policy Learning Rate: 0.0003
+Current Critic Learning Rate: 0.0003
+Auto-load path: data\checkpoints\rlgym-ppo-run-1757837914329399500\400126
+Loading from checkpoint at data\checkpoints\rlgym-ppo-run-1757837914329399500\400126
+C:\Users\charl\PycharmProjects\pythonProject10\venv\lib\site-packages\rlgym_ppo\ppo\ppo_learner.py:261: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  torch.load(os.path.join(folder_path, "PPO_POLICY.pt"))
+C:\Users\charl\PycharmProjects\pythonProject10\venv\lib\site-packages\rlgym_ppo\ppo\ppo_learner.py:264: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  torch.load(os.path.join(folder_path, "PPO_VALUE_NET.pt"))
+C:\Users\charl\PycharmProjects\pythonProject10\venv\lib\site-packages\rlgym_ppo\ppo\ppo_learner.py:267: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  torch.load(os.path.join(folder_path, "PPO_POLICY_OPTIMIZER.pt"))
+C:\Users\charl\PycharmProjects\pythonProject10\venv\lib\site-packages\rlgym_ppo\ppo\ppo_learner.py:270: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  torch.load(os.path.join(folder_path, "PPO_VALUE_NET_OPTIMIZER.pt"))
+LOADED RUNNING STATS FROM JSON | Mean: [-0.00399047] | Variance: [3178.47680664] | Count: 1200
+LOADED RUNNING STATS FROM JSON | Mean: [-0.00399047] | Variance: [3178.47680664] | Count: 1200
+New policy learning rate: 0.0003
+New policy learning rate: 0.0003
+wandb: WARNING `start_method` is deprecated and will be removed in a future version of wandb. This setting is currently non-functional and safely ignored.
+wandb: Finishing previous runs because reinit is set to True.

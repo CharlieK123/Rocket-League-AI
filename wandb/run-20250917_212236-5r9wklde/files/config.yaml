@@ -1,0 +1,50 @@
+_wandb:
+    value:
+        cli_version: 0.21.4
+        e:
+            9zt3t6s5aw3gyduzkfln5ad7630m8vvo:
+                codePath: gpt.py
+                codePathLocal: gpt.py
+                cpu_count: 6
+                cpu_count_logical: 12
+                cudaVersion: "12.6"
+                disk:
+                    /:
+                        total: "999546736640"
+                        used: "933755731968"
+                email: charliekerr07@icloud.com
+                executable: C:\Users\charl\PycharmProjects\pythonProject10\venv\Scripts\python.exe
+                gpu: NVIDIA GeForce RTX 3060
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Ampere
+                      cudaCores: 3584
+                      memoryTotal: "12884901888"
+                      name: NVIDIA GeForce RTX 3060
+                      uuid: GPU-42f143ee-ec9e-9ea4-d194-f638a48186f7
+                host: CharliesPC
+                memory:
+                    total: "17103036416"
+                os: Windows-10-10.0.19045-SP0
+                program: C:\Users\charl\PycharmProjects\pythonProject10\gpt.py
+                python: CPython 3.9.13
+                root: C:\Users\charl\PycharmProjects\pythonProject10
+                startedAt: "2025-09-17T11:22:36.334868Z"
+                writerId: 9zt3t6s5aw3gyduzkfln5ad7630m8vvo
+        m: []
+        python_version: 3.9.13
+        t:
+            "1":
+                - 1
+                - 105
+            "2":
+                - 1
+                - 105
+            "3":
+                - 2
+            "4": 3.9.13
+            "5": 0.21.4
+            "8":
+                - 3
+            "12": 0.21.4
+            "13": windows-amd64

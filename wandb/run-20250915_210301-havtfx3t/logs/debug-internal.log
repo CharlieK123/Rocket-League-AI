@@ -1,0 +1,6 @@
+{"time":"2025-09-15T21:03:03.4942254+10:00","level":"INFO","msg":"stream: starting","core version":"0.21.4"}
+{"time":"2025-09-15T21:03:03.7565364+10:00","level":"INFO","msg":"stream: created new stream","id":"havtfx3t"}
+{"time":"2025-09-15T21:03:03.7565364+10:00","level":"INFO","msg":"handler: started","stream_id":"havtfx3t"}
+{"time":"2025-09-15T21:03:03.7565364+10:00","level":"INFO","msg":"stream: started","id":"havtfx3t"}
+{"time":"2025-09-15T21:03:03.7565364+10:00","level":"INFO","msg":"writer: started","stream_id":"havtfx3t"}
+{"time":"2025-09-15T21:03:03.7565364+10:00","level":"INFO","msg":"sender: started","stream_id":"havtfx3t"}

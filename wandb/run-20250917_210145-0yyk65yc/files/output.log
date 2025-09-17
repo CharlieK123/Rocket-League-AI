@@ -1,0 +1,21 @@
+Using device cuda:0
+Initializing processes...
+100%|██████████| 32/32 [00:00<00:00, 217.58it/s]
+Initializing PPO...
+Trainable Parameters:
+Component  Count
+--------------------
+Policy     158736
+Critic     154881
+--------------------
+Total      313617
+Current Policy Learning Rate: 0.0003
+Current Critic Learning Rate: 0.0003
+Auto-load path: data\checkpoints\rlgym-ppo-run-1757837914329399500\400126
+Loading from checkpoint at data\checkpoints\rlgym-ppo-run-1757837914329399500\400126
+LOADED RUNNING STATS FROM JSON | Mean: [-0.00399047] | Variance: [3178.47680664] | Count: 1200
+LOADED RUNNING STATS FROM JSON | Mean: [-0.00399047] | Variance: [3178.47680664] | Count: 1200
+New policy learning rate: 0.0003
+New policy learning rate: 0.0003
+wandb: WARNING `start_method` is deprecated and will be removed in a future version of wandb. This setting is currently non-functional and safely ignored.
+wandb: Finishing previous runs because reinit is set to True.

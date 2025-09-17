@@ -1,0 +1,10 @@
+# Virtual environments
+.venv/
+venv/
+
+# PyCharm / JetBrains settings
+.idea/
+
+# Python cache
+__pycache__/
+*.pyc

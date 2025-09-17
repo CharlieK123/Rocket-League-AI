@@ -1,0 +1,6 @@
+<rlgym_sim.utils.action_parsers.continuous_act.ContinuousAction object at 0x000001888BE7ED90>
+Received request for env shapes, returning:
+- Observations shape: (89,)
+- Number of actions: 8.0
+- Action space type: 2.0 (Continuous)
+--------------------

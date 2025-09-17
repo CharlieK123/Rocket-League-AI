@@ -1,0 +1,7 @@
+{"time":"2025-09-15T20:30:21.1593481+10:00","level":"INFO","msg":"stream: starting","core version":"0.21.4"}
+{"time":"2025-09-15T20:30:21.3816768+10:00","level":"INFO","msg":"stream: created new stream","id":"yhcpy1rm"}
+{"time":"2025-09-15T20:30:21.3816768+10:00","level":"INFO","msg":"stream: started","id":"yhcpy1rm"}
+{"time":"2025-09-15T20:30:21.3816768+10:00","level":"INFO","msg":"handler: started","stream_id":"yhcpy1rm"}
+{"time":"2025-09-15T20:30:21.3816768+10:00","level":"INFO","msg":"writer: started","stream_id":"yhcpy1rm"}
+{"time":"2025-09-15T20:30:21.3821799+10:00","level":"INFO","msg":"sender: started","stream_id":"yhcpy1rm"}
+{"time":"2025-09-15T20:50:21.7735633+10:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}

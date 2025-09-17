@@ -1,0 +1,13 @@
+{"time":"2025-09-17T21:07:36.8731944+10:00","level":"INFO","msg":"stream: starting","core version":"0.21.4"}
+{"time":"2025-09-17T21:07:37.2966149+10:00","level":"INFO","msg":"stream: created new stream","id":"5lasot0s"}
+{"time":"2025-09-17T21:07:37.2966149+10:00","level":"INFO","msg":"stream: started","id":"5lasot0s"}
+{"time":"2025-09-17T21:07:37.2966149+10:00","level":"INFO","msg":"handler: started","stream_id":"5lasot0s"}
+{"time":"2025-09-17T21:07:37.2966149+10:00","level":"INFO","msg":"writer: started","stream_id":"5lasot0s"}
+{"time":"2025-09-17T21:07:37.2966149+10:00","level":"INFO","msg":"sender: started","stream_id":"5lasot0s"}
+{"time":"2025-09-17T21:08:22.8968402+10:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading data","runtime_seconds":14.9005638}],"total_operations":1}}
+{"time":"2025-09-17T21:08:28.3965623+10:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/charliekerr07-rl/rlbot-ppo/5lasot0s/file_stream\": unexpected EOF"}
+{"time":"2025-09-17T21:08:51.1628699+10:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-09-17T21:09:02.0288966+10:00","level":"INFO","msg":"stream: closing","id":"5lasot0s"}
+{"time":"2025-09-17T21:09:02.0288966+10:00","level":"INFO","msg":"handler: closed","stream_id":"5lasot0s"}
+{"time":"2025-09-17T21:09:02.0288966+10:00","level":"INFO","msg":"sender: closed","stream_id":"5lasot0s"}
+{"time":"2025-09-17T21:09:02.0288966+10:00","level":"INFO","msg":"stream: closed","id":"5lasot0s"}

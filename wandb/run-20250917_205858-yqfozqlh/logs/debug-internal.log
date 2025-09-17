@@ -1,0 +1,13 @@
+{"time":"2025-09-17T20:59:00.3619406+10:00","level":"INFO","msg":"stream: starting","core version":"0.21.4"}
+{"time":"2025-09-17T20:59:04.5102355+10:00","level":"INFO","msg":"stream: created new stream","id":"yqfozqlh"}
+{"time":"2025-09-17T20:59:04.5102355+10:00","level":"INFO","msg":"stream: started","id":"yqfozqlh"}
+{"time":"2025-09-17T20:59:04.5102355+10:00","level":"INFO","msg":"writer: started","stream_id":"yqfozqlh"}
+{"time":"2025-09-17T20:59:04.5102355+10:00","level":"INFO","msg":"handler: started","stream_id":"yqfozqlh"}
+{"time":"2025-09-17T20:59:04.5102355+10:00","level":"INFO","msg":"sender: started","stream_id":"yqfozqlh"}
+{"time":"2025-09-17T20:59:31.7794349+10:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/charliekerr07-rl/rlbot-ppo/yqfozqlh/file_stream\": unexpected EOF"}
+{"time":"2025-09-17T21:00:07.9930805+10:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-09-17T21:00:10.3089924+10:00","level":"INFO","msg":"stream: closing","id":"yqfozqlh"}
+{"time":"2025-09-17T21:00:11.3434044+10:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-09-17T21:00:15.5933361+10:00","level":"INFO","msg":"handler: closed","stream_id":"yqfozqlh"}
+{"time":"2025-09-17T21:00:15.5939802+10:00","level":"INFO","msg":"sender: closed","stream_id":"yqfozqlh"}
+{"time":"2025-09-17T21:00:15.5939802+10:00","level":"INFO","msg":"stream: closed","id":"yqfozqlh"}

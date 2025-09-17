@@ -1,0 +1,30 @@
+2025-09-17 20:49:06,740 INFO    MainThread:24132 [wandb_setup.py:_flush():81] Current SDK version is 0.21.4
+2025-09-17 20:49:06,740 INFO    MainThread:24132 [wandb_setup.py:_flush():81] Configure stats pid to 24132
+2025-09-17 20:49:06,740 INFO    MainThread:24132 [wandb_setup.py:_flush():81] Loading settings from C:\Users\charl\.config\wandb\settings
+2025-09-17 20:49:06,740 INFO    MainThread:24132 [wandb_setup.py:_flush():81] Loading settings from C:\Users\charl\PycharmProjects\pythonProject10\wandb\settings
+2025-09-17 20:49:06,741 INFO    MainThread:24132 [wandb_setup.py:_flush():81] Loading settings from environment variables
+2025-09-17 20:49:06,741 INFO    MainThread:24132 [wandb_init.py:setup_run_log_directory():686] Logging user logs to C:\Users\charl\PycharmProjects\pythonProject10\wandb\run-20250917_204906-zqtmy9vx\logs\debug.log
+2025-09-17 20:49:06,741 INFO    MainThread:24132 [wandb_init.py:setup_run_log_directory():687] Logging internal logs to C:\Users\charl\PycharmProjects\pythonProject10\wandb\run-20250917_204906-zqtmy9vx\logs\debug-internal.log
+2025-09-17 20:49:06,741 INFO    MainThread:24132 [wandb_init.py:init():813] calling init triggers
+2025-09-17 20:49:06,741 INFO    MainThread:24132 [wandb_init.py:init():818] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-09-17 20:49:06,741 INFO    MainThread:24132 [wandb_init.py:init():854] starting backend
+2025-09-17 20:49:11,074 WARNING MainThread:24132 [wandb_init.py:init():1563] [no run ID] interrupted
+Traceback (most recent call last):
+  File "C:\Users\charl\PycharmProjects\pythonProject10\venv\lib\site-packages\wandb\sdk\wandb_init.py", line 1554, in init
+    run = wi.init(run_settings, run_config, run_printer)
+  File "C:\Users\charl\PycharmProjects\pythonProject10\venv\lib\site-packages\wandb\sdk\wandb_init.py", line 856, in init
+    service = self._wl.ensure_service()
+  File "C:\Users\charl\PycharmProjects\pythonProject10\venv\lib\site-packages\wandb\sdk\wandb_setup.py", line 401, in ensure_service
+    self._connection = service_connection.connect_to_service(
+  File "C:\Users\charl\PycharmProjects\pythonProject10\venv\lib\site-packages\wandb\sdk\lib\service\service_connection.py", line 34, in connect_to_service
+    client=token.connect(asyncer=asyncer),
+  File "C:\Users\charl\PycharmProjects\pythonProject10\venv\lib\site-packages\wandb\sdk\lib\service\service_token.py", line 151, in connect
+    reader, writer = asyncer.run(
+  File "C:\Users\charl\PycharmProjects\pythonProject10\venv\lib\site-packages\wandb\sdk\lib\asyncio_manager.py", line 136, in run
+    return future.result()
+  File "C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python39_64\lib\concurrent\futures\_base.py", line 441, in result
+    self._condition.wait(timeout)
+  File "C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python39_64\lib\threading.py", line 312, in wait
+    waiter.acquire()
+KeyboardInterrupt

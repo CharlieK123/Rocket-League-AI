@@ -1,0 +1,13 @@
+{"time":"2025-09-17T20:58:38.8776384+10:00","level":"INFO","msg":"stream: starting","core version":"0.21.4"}
+{"time":"2025-09-17T20:58:39.3510057+10:00","level":"INFO","msg":"stream: created new stream","id":"45avtf8o"}
+{"time":"2025-09-17T20:58:39.3510057+10:00","level":"INFO","msg":"stream: started","id":"45avtf8o"}
+{"time":"2025-09-17T20:58:39.3510057+10:00","level":"INFO","msg":"writer: started","stream_id":"45avtf8o"}
+{"time":"2025-09-17T20:58:39.3510057+10:00","level":"INFO","msg":"handler: started","stream_id":"45avtf8o"}
+{"time":"2025-09-17T20:58:39.3510057+10:00","level":"INFO","msg":"sender: started","stream_id":"45avtf8o"}
+{"time":"2025-09-17T20:59:18.0521331+10:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading data","runtime_seconds":7.7842484},{"desc":"updating run metadata","runtime_seconds":0.0010976}],"total_operations":2}}
+{"time":"2025-09-17T20:59:27.2248977+10:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-09-17T20:59:28.2810868+10:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/charliekerr07-rl/rlbot-ppo/45avtf8o/file_stream\": unexpected EOF"}
+{"time":"2025-09-17T20:59:42.6966007+10:00","level":"INFO","msg":"stream: closing","id":"45avtf8o"}
+{"time":"2025-09-17T20:59:42.6966007+10:00","level":"INFO","msg":"handler: closed","stream_id":"45avtf8o"}
+{"time":"2025-09-17T20:59:42.6966007+10:00","level":"INFO","msg":"sender: closed","stream_id":"45avtf8o"}
+{"time":"2025-09-17T20:59:42.6966007+10:00","level":"INFO","msg":"stream: closed","id":"45avtf8o"}

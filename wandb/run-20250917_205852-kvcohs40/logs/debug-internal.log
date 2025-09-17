@@ -1,0 +1,12 @@
+{"time":"2025-09-17T20:58:55.3979326+10:00","level":"INFO","msg":"stream: starting","core version":"0.21.4"}
+{"time":"2025-09-17T20:58:56.0489311+10:00","level":"INFO","msg":"stream: created new stream","id":"kvcohs40"}
+{"time":"2025-09-17T20:58:56.0489311+10:00","level":"INFO","msg":"stream: started","id":"kvcohs40"}
+{"time":"2025-09-17T20:58:56.0489311+10:00","level":"INFO","msg":"handler: started","stream_id":"kvcohs40"}
+{"time":"2025-09-17T20:58:56.0489311+10:00","level":"INFO","msg":"writer: started","stream_id":"kvcohs40"}
+{"time":"2025-09-17T20:58:56.0502801+10:00","level":"INFO","msg":"sender: started","stream_id":"kvcohs40"}
+{"time":"2025-09-17T20:59:31.8403358+10:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/charliekerr07-rl/rlbot-ppo/kvcohs40/file_stream\": unexpected EOF"}
+{"time":"2025-09-17T21:00:10.3089924+10:00","level":"INFO","msg":"stream: closing","id":"kvcohs40"}
+{"time":"2025-09-17T21:00:12.2696638+10:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-09-17T21:00:16.4486028+10:00","level":"INFO","msg":"handler: closed","stream_id":"kvcohs40"}
+{"time":"2025-09-17T21:00:16.4491224+10:00","level":"INFO","msg":"sender: closed","stream_id":"kvcohs40"}
+{"time":"2025-09-17T21:00:16.4491224+10:00","level":"INFO","msg":"stream: closed","id":"kvcohs40"}

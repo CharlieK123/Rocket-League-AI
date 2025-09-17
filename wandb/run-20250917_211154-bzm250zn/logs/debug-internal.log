@@ -1,0 +1,8 @@
+{"time":"2025-09-17T21:11:56.7560248+10:00","level":"INFO","msg":"stream: starting","core version":"0.21.4"}
+{"time":"2025-09-17T21:12:10.8607601+10:00","level":"INFO","msg":"stream: created new stream","id":"bzm250zn"}
+{"time":"2025-09-17T21:12:10.8607601+10:00","level":"INFO","msg":"stream: started","id":"bzm250zn"}
+{"time":"2025-09-17T21:12:10.8607601+10:00","level":"INFO","msg":"writer: started","stream_id":"bzm250zn"}
+{"time":"2025-09-17T21:12:10.8607601+10:00","level":"INFO","msg":"handler: started","stream_id":"bzm250zn"}
+{"time":"2025-09-17T21:12:10.8607601+10:00","level":"INFO","msg":"sender: started","stream_id":"bzm250zn"}
+{"time":"2025-09-17T21:13:00.0026051+10:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/charliekerr07-rl/rlbot-ppo/bzm250zn/file_stream\": unexpected EOF"}
+{"time":"2025-09-17T21:14:48.3292076+10:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}

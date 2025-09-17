@@ -1,0 +1,6 @@
+{"time":"2025-09-17T21:03:42.1943711+10:00","level":"INFO","msg":"stream: starting","core version":"0.21.4"}
+{"time":"2025-09-17T21:03:44.9719544+10:00","level":"INFO","msg":"stream: created new stream","id":"utcznsd2"}
+{"time":"2025-09-17T21:03:44.972468+10:00","level":"INFO","msg":"handler: started","stream_id":"utcznsd2"}
+{"time":"2025-09-17T21:03:44.972468+10:00","level":"INFO","msg":"stream: started","id":"utcznsd2"}
+{"time":"2025-09-17T21:03:44.972468+10:00","level":"INFO","msg":"writer: started","stream_id":"utcznsd2"}
+{"time":"2025-09-17T21:03:44.972468+10:00","level":"INFO","msg":"sender: started","stream_id":"utcznsd2"}

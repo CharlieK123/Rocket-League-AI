@@ -1,0 +1,11 @@
+2025-09-15 21:40:09,636 INFO    MainThread:15416 [wandb_setup.py:_flush():81] Current SDK version is 0.21.4
+2025-09-15 21:40:09,636 INFO    MainThread:15416 [wandb_setup.py:_flush():81] Configure stats pid to 15416
+2025-09-15 21:40:09,636 INFO    MainThread:15416 [wandb_setup.py:_flush():81] Loading settings from C:\Users\charl\.config\wandb\settings
+2025-09-15 21:40:09,637 INFO    MainThread:15416 [wandb_setup.py:_flush():81] Loading settings from C:\Users\charl\PycharmProjects\pythonProject10\wandb\settings
+2025-09-15 21:40:09,637 INFO    MainThread:15416 [wandb_setup.py:_flush():81] Loading settings from environment variables
+2025-09-15 21:40:09,637 INFO    MainThread:15416 [wandb_init.py:setup_run_log_directory():686] Logging user logs to C:\Users\charl\PycharmProjects\pythonProject10\wandb\run-20250915_214009-1supkn5r\logs\debug.log
+2025-09-15 21:40:09,637 INFO    MainThread:15416 [wandb_init.py:setup_run_log_directory():687] Logging internal logs to C:\Users\charl\PycharmProjects\pythonProject10\wandb\run-20250915_214009-1supkn5r\logs\debug-internal.log
+2025-09-15 21:40:09,637 INFO    MainThread:15416 [wandb_init.py:init():813] calling init triggers
+2025-09-15 21:40:09,637 INFO    MainThread:15416 [wandb_init.py:init():818] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-09-15 21:40:09,637 INFO    MainThread:15416 [wandb_init.py:init():854] starting backend

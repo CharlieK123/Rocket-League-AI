@@ -1,0 +1,8 @@
+{"time":"2025-09-17T21:22:57.3237632+10:00","level":"INFO","msg":"stream: starting","core version":"0.21.4"}
+{"time":"2025-09-17T21:22:58.2188529+10:00","level":"INFO","msg":"stream: created new stream","id":"o1z9b6x8"}
+{"time":"2025-09-17T21:22:58.2188529+10:00","level":"INFO","msg":"stream: started","id":"o1z9b6x8"}
+{"time":"2025-09-17T21:22:58.2198531+10:00","level":"INFO","msg":"handler: started","stream_id":"o1z9b6x8"}
+{"time":"2025-09-17T21:22:58.2198531+10:00","level":"INFO","msg":"writer: started","stream_id":"o1z9b6x8"}
+{"time":"2025-09-17T21:22:58.2198531+10:00","level":"INFO","msg":"sender: started","stream_id":"o1z9b6x8"}
+{"time":"2025-09-17T21:24:07.0980019+10:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/charliekerr07-rl/rlbot-ppo/o1z9b6x8/file_stream\": unexpected EOF"}
+{"time":"2025-09-17T21:24:28.57557+10:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/charliekerr07-rl/rlbot-ppo/o1z9b6x8/file_stream\": http2: client conn could not be established"}

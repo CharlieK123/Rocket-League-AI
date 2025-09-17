@@ -1,0 +1,46 @@
+2025-09-15 22:10:28,242 INFO    MainThread:22808 [wandb_setup.py:_flush():81] Current SDK version is 0.21.4
+2025-09-15 22:10:28,242 INFO    MainThread:22808 [wandb_setup.py:_flush():81] Configure stats pid to 22808
+2025-09-15 22:10:28,242 INFO    MainThread:22808 [wandb_setup.py:_flush():81] Loading settings from C:\Users\charl\.config\wandb\settings
+2025-09-15 22:10:28,242 INFO    MainThread:22808 [wandb_setup.py:_flush():81] Loading settings from C:\Users\charl\PycharmProjects\pythonProject10\wandb\settings
+2025-09-15 22:10:28,242 INFO    MainThread:22808 [wandb_setup.py:_flush():81] Loading settings from environment variables
+2025-09-15 22:10:28,243 INFO    MainThread:22808 [wandb_init.py:setup_run_log_directory():686] Logging user logs to C:\Users\charl\PycharmProjects\pythonProject10\wandb\run-20250915_221028-d5pnkseg\logs\debug.log
+2025-09-15 22:10:28,244 INFO    MainThread:22808 [wandb_init.py:setup_run_log_directory():687] Logging internal logs to C:\Users\charl\PycharmProjects\pythonProject10\wandb\run-20250915_221028-d5pnkseg\logs\debug-internal.log
+2025-09-15 22:10:28,244 INFO    MainThread:22808 [wandb_init.py:init():813] calling init triggers
+2025-09-15 22:10:28,244 INFO    MainThread:22808 [wandb_init.py:init():818] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-09-15 22:10:28,244 INFO    MainThread:22808 [wandb_init.py:init():854] starting backend
+2025-09-15 22:10:30,714 INFO    MainThread:22808 [wandb_init.py:init():857] sending inform_init request
+2025-09-15 22:10:30,727 INFO    MainThread:22808 [wandb_init.py:init():865] backend started and connected
+2025-09-15 22:10:30,729 INFO    MainThread:22808 [wandb_init.py:init():936] updated telemetry
+2025-09-15 22:10:30,731 INFO    MainThread:22808 [wandb_init.py:init():960] communicating run to backend with 90.0 second timeout
+2025-09-15 22:10:31,521 INFO    MainThread:22808 [wandb_init.py:init():1011] starting run threads in backend
+2025-09-15 22:10:31,589 INFO    MainThread:22808 [wandb_run.py:_console_start():2506] atexit reg
+2025-09-15 22:10:31,589 INFO    MainThread:22808 [wandb_run.py:_redirect():2354] redirect: wrap_raw
+2025-09-15 22:10:31,589 INFO    MainThread:22808 [wandb_run.py:_redirect():2423] Wrapping output streams.
+2025-09-15 22:10:31,589 INFO    MainThread:22808 [wandb_run.py:_redirect():2446] Redirects installed.
+2025-09-15 22:10:31,592 INFO    MainThread:22808 [wandb_init.py:init():1049] run started, returning control to user process
+2025-09-15 22:10:33,970 ERROR   wandb-AsyncioManager-main:22808 [service_client.py:_forward_responses():81] Error reading server response.
+Traceback (most recent call last):
+  File "C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python39_64\lib\asyncio\windows_events.py", line 462, in finish_recv
+    return ov.getresult()
+OSError: [WinError 64] The specified network name is no longer available
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\charl\PycharmProjects\pythonProject10\venv\lib\site-packages\wandb\sdk\lib\service\service_client.py", line 77, in _forward_responses
+    while response := await self._read_server_response():
+  File "C:\Users\charl\PycharmProjects\pythonProject10\venv\lib\site-packages\wandb\sdk\lib\service\service_client.py", line 91, in _read_server_response
+    header = await self._reader.readexactly(_HEADER_BYTE_INT_LEN)
+  File "C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python39_64\lib\asyncio\streams.py", line 723, in readexactly
+    await self._wait_for_data('readexactly')
+  File "C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python39_64\lib\asyncio\streams.py", line 517, in _wait_for_data
+    await self._waiter
+  File "C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python39_64\lib\asyncio\proactor_events.py", line 280, in _loop_reading
+    data = fut.result()
+  File "C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python39_64\lib\asyncio\windows_events.py", line 817, in _poll
+    value = callback(transferred, key, ov)
+  File "C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python39_64\lib\asyncio\windows_events.py", line 466, in finish_recv
+    raise ConnectionResetError(*exc.args)
+ConnectionResetError: [WinError 64] The specified network name is no longer available
+2025-09-15 22:10:33,973 INFO    wandb-AsyncioManager-main:22808 [mailbox.py:close():137] Closing mailbox, abandoning 1 handles.

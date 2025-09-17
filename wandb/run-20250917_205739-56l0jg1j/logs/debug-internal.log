@@ -1,0 +1,8 @@
+{"time":"2025-09-17T20:57:41.620848+10:00","level":"INFO","msg":"stream: starting","core version":"0.21.4"}
+{"time":"2025-09-17T20:57:45.6787291+10:00","level":"INFO","msg":"stream: created new stream","id":"56l0jg1j"}
+{"time":"2025-09-17T20:57:45.6787291+10:00","level":"INFO","msg":"stream: started","id":"56l0jg1j"}
+{"time":"2025-09-17T20:57:45.6787291+10:00","level":"INFO","msg":"sender: started","stream_id":"56l0jg1j"}
+{"time":"2025-09-17T20:57:45.6787291+10:00","level":"INFO","msg":"handler: started","stream_id":"56l0jg1j"}
+{"time":"2025-09-17T20:57:45.6787291+10:00","level":"INFO","msg":"writer: started","stream_id":"56l0jg1j"}
+{"time":"2025-09-17T20:58:02.6569306+10:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-09-17T20:58:17.6576214+10:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}

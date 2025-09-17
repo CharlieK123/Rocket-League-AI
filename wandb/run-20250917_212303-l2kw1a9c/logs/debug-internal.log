@@ -1,0 +1,7 @@
+{"time":"2025-09-17T21:23:05.2734628+10:00","level":"INFO","msg":"stream: starting","core version":"0.21.4"}
+{"time":"2025-09-17T21:23:13.8586135+10:00","level":"INFO","msg":"stream: created new stream","id":"l2kw1a9c"}
+{"time":"2025-09-17T21:23:13.8586135+10:00","level":"INFO","msg":"stream: started","id":"l2kw1a9c"}
+{"time":"2025-09-17T21:23:13.8586135+10:00","level":"INFO","msg":"handler: started","stream_id":"l2kw1a9c"}
+{"time":"2025-09-17T21:23:13.8586135+10:00","level":"INFO","msg":"sender: started","stream_id":"l2kw1a9c"}
+{"time":"2025-09-17T21:23:13.8586135+10:00","level":"INFO","msg":"writer: started","stream_id":"l2kw1a9c"}
+{"time":"2025-09-17T21:24:17.0877087+10:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/charliekerr07-rl/rlbot-ppo/l2kw1a9c/file_stream\": unexpected EOF"}

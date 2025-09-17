@@ -1,0 +1,9 @@
+{"time":"2025-09-17T21:16:46.5690921+10:00","level":"INFO","msg":"stream: starting","core version":"0.21.4"}
+{"time":"2025-09-17T21:16:47.783225+10:00","level":"INFO","msg":"stream: created new stream","id":"hrjmy6uj"}
+{"time":"2025-09-17T21:16:47.783225+10:00","level":"INFO","msg":"stream: started","id":"hrjmy6uj"}
+{"time":"2025-09-17T21:16:47.783225+10:00","level":"INFO","msg":"sender: started","stream_id":"hrjmy6uj"}
+{"time":"2025-09-17T21:16:47.783225+10:00","level":"INFO","msg":"writer: started","stream_id":"hrjmy6uj"}
+{"time":"2025-09-17T21:16:47.783225+10:00","level":"INFO","msg":"handler: started","stream_id":"hrjmy6uj"}
+{"time":"2025-09-17T21:17:08.6627717+10:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/charliekerr07-rl/rlbot-ppo/hrjmy6uj/file_stream\": unexpected EOF"}
+{"time":"2025-09-17T21:17:29.2621401+10:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/charliekerr07-rl/rlbot-ppo/hrjmy6uj/file_stream\": unexpected EOF"}
+{"time":"2025-09-17T21:19:48.5520223+10:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}

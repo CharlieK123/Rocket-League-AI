@@ -1,0 +1,6 @@
+{"time":"2025-09-15T21:00:49.4910118+10:00","level":"INFO","msg":"stream: starting","core version":"0.21.4"}
+{"time":"2025-09-15T21:00:49.7739804+10:00","level":"INFO","msg":"stream: created new stream","id":"nzgr51e6"}
+{"time":"2025-09-15T21:00:49.7744829+10:00","level":"INFO","msg":"stream: started","id":"nzgr51e6"}
+{"time":"2025-09-15T21:00:49.7744829+10:00","level":"INFO","msg":"writer: started","stream_id":"nzgr51e6"}
+{"time":"2025-09-15T21:00:49.7746401+10:00","level":"INFO","msg":"handler: started","stream_id":"nzgr51e6"}
+{"time":"2025-09-15T21:00:49.7746401+10:00","level":"INFO","msg":"sender: started","stream_id":"nzgr51e6"}

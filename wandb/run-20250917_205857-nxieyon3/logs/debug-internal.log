@@ -1,0 +1,13 @@
+{"time":"2025-09-17T20:59:00.0835179+10:00","level":"INFO","msg":"stream: starting","core version":"0.21.4"}
+{"time":"2025-09-17T20:59:04.0215115+10:00","level":"INFO","msg":"stream: created new stream","id":"nxieyon3"}
+{"time":"2025-09-17T20:59:04.0215115+10:00","level":"INFO","msg":"stream: started","id":"nxieyon3"}
+{"time":"2025-09-17T20:59:04.0215115+10:00","level":"INFO","msg":"sender: started","stream_id":"nxieyon3"}
+{"time":"2025-09-17T20:59:04.0215115+10:00","level":"INFO","msg":"writer: started","stream_id":"nxieyon3"}
+{"time":"2025-09-17T20:59:04.0215115+10:00","level":"INFO","msg":"handler: started","stream_id":"nxieyon3"}
+{"time":"2025-09-17T20:59:31.6347859+10:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/charliekerr07-rl/rlbot-ppo/nxieyon3/file_stream\": unexpected EOF"}
+{"time":"2025-09-17T21:00:06.6135557+10:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-09-17T21:00:10.3084714+10:00","level":"INFO","msg":"stream: closing","id":"nxieyon3"}
+{"time":"2025-09-17T21:00:14.299727+10:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-09-17T21:00:18.8002032+10:00","level":"INFO","msg":"handler: closed","stream_id":"nxieyon3"}
+{"time":"2025-09-17T21:00:18.8002032+10:00","level":"INFO","msg":"sender: closed","stream_id":"nxieyon3"}
+{"time":"2025-09-17T21:00:18.8002032+10:00","level":"INFO","msg":"stream: closed","id":"nxieyon3"}

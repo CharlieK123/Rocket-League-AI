@@ -1,0 +1,9 @@
+{"time":"2025-09-17T20:57:39.0327482+10:00","level":"INFO","msg":"stream: starting","core version":"0.21.4"}
+{"time":"2025-09-17T20:57:40.5460208+10:00","level":"INFO","msg":"stream: created new stream","id":"fpvvctyn"}
+{"time":"2025-09-17T20:57:40.5460208+10:00","level":"INFO","msg":"stream: started","id":"fpvvctyn"}
+{"time":"2025-09-17T20:57:40.5460208+10:00","level":"INFO","msg":"sender: started","stream_id":"fpvvctyn"}
+{"time":"2025-09-17T20:57:40.5460208+10:00","level":"INFO","msg":"writer: started","stream_id":"fpvvctyn"}
+{"time":"2025-09-17T20:57:40.5460208+10:00","level":"INFO","msg":"handler: started","stream_id":"fpvvctyn"}
+{"time":"2025-09-17T20:57:57.2128109+10:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-09-17T20:58:12.2128613+10:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-09-17T20:58:27.2128578+10:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}

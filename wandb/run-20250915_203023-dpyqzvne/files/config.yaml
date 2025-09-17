@@ -1,0 +1,100 @@
+_wandb:
+    value:
+        cli_version: 0.21.4
+        e:
+            921mwycdudjztqduxt3nldi8k57856gv:
+                codePath: gpt.py
+                codePathLocal: gpt.py
+                cpu_count: 6
+                cpu_count_logical: 12
+                cudaVersion: "12.6"
+                disk:
+                    /:
+                        total: "999546736640"
+                        used: "973809958912"
+                email: charliekerr07@icloud.com
+                executable: C:\Users\charl\PycharmProjects\pythonProject10\venv\Scripts\python.exe
+                gpu: NVIDIA GeForce RTX 3060
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Ampere
+                      cudaCores: 3584
+                      memoryTotal: "12884901888"
+                      name: NVIDIA GeForce RTX 3060
+                      uuid: GPU-42f143ee-ec9e-9ea4-d194-f638a48186f7
+                host: CharliesPC
+                memory:
+                    total: "17103036416"
+                os: Windows-10-10.0.19045-SP0
+                program: C:\Users\charl\PycharmProjects\pythonProject10\gpt.py
+                python: CPython 3.9.13
+                root: C:\Users\charl\PycharmProjects\pythonProject10
+                startedAt: "2025-09-15T10:30:23.395612Z"
+                writerId: 921mwycdudjztqduxt3nldi8k57856gv
+        m: []
+        python_version: 3.9.13
+        t:
+            "1":
+                - 1
+                - 105
+            "2":
+                - 1
+                - 105
+            "3":
+                - 2
+                - 5
+                - 14
+                - 16
+                - 62
+            "4": 3.9.13
+            "5": 0.21.4
+            "8":
+                - 3
+            "10":
+                - 20
+            "12": 0.21.4
+            "13": windows-amd64
+critic_layer_sizes:
+    value:
+        - 256
+        - 256
+        - 256
+critic_lr:
+    value: 0.0003
+exp_buffer_size:
+    value: 150000
+gae_gamma:
+    value: 0.99
+gae_lambda:
+    value: 0.95
+min_inference_size:
+    value: 29
+n_proc:
+    value: 32
+policy_layer_sizes:
+    value:
+        - 256
+        - 256
+        - 256
+policy_lr:
+    value: 0.0003
+ppo_batch_size:
+    value: 50000
+ppo_clip_range:
+    value: 0.2
+ppo_ent_coef:
+    value: 0.001
+ppo_epochs:
+    value: 1
+ppo_minibatch_size:
+    value: 50000
+shm_buffer_size:
+    value: 8192
+standardize_obs:
+    value: false
+standardize_returns:
+    value: true
+timestep_limit:
+    value: 1000000000
+ts_per_iteration:
+    value: 50000
