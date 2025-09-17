@@ -100,3 +100,4 @@ if __name__ == "__main__":
     learner.learn()
     print('do you see this')
     print('yes')
+    print('awesome')
