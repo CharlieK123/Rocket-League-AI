@@ -10,7 +10,7 @@ DIM = 512
 
 
 class Agent(nn.Module):
-    def __init__(self, input_size, hidden_neurons, output_size):
+    def __init__(self, input_size, hidden_neurons, output_size, role):
         # define the parameters in the model
         # defines a model with two hidden layers of n neurons
         super(Agent, self).__init__()
@@ -23,10 +23,10 @@ class Agent(nn.Module):
         # define the activation functions
         self.relu = nn.ReLU()
         self.tanh = nn.Tanh()
-        self.sigmoid = nn.Sigmoid()
-        self.softmax = nn.Softmax(dim=1)
+        self.role = False
+        if role == 'actor': self.role = True
 
-    def forward(self, x, model='normal'):
+    def forward(self, x):
         # perform the operations within the model
         y1 = self.relu(self.hidden_layer1(x))
         y2 = self.relu(self.hidden_layer2(y1))
@@ -34,11 +34,7 @@ class Agent(nn.Module):
         y4 = self.relu(self.hidden_layer4(y3))
         out = self.output_layer(y4)
 
-        if model == 'policy':
-            out[:, :5] = self.tanh(out[:, :5])
-            out[:, 5:] = self.sigmoid(out[:, 5:])
-
-        elif model == 'value':
+        if self.role:
             out = self.tanh(out)
 
         return out
