@@ -6,6 +6,7 @@ from embeddings import Dense
 import math
 from reinforce import Agent
 import torch.nn.functional as F
+import time
 
 GAME_STATE_VALUES = 8
 BALL_VALUES = 3
@@ -18,7 +19,7 @@ dim = 64  # global encoder vector dimensionality
 emb_hidden = 48  # obs embedding network hidden neuron count
 attention_heads = 4  # amount of heads used in MHA
 dense_hidden = 128  # encoder dense network hidden neuron count
-blocks = 3  # amount of encoder iterations done
+blocks = 1  # amount of encoder iterations done
 max_len = 6  # maximum number of context tokens used in one given input
 out_hidden = 128  # actor/critic network hidden neuron count
 
@@ -59,6 +60,7 @@ class PositionalEncoding(nn.Module):
         x = x + self.pe[:x.size(0)]
         return x
 
+
 class Encoder(nn.Module):
     def __init__(self):
         # input embeddings
@@ -67,14 +69,13 @@ class Encoder(nn.Module):
         self.attention = nn.MultiheadAttention(dim, attention_heads)
 
         # four feedforward modules
-        self.FFN = Dense(dim, dense_hidden,dim)
+        self.FFN = Dense(dim, dense_hidden, dim)
 
         # four normalisation modules
         self.layernorm_att = nn.LayerNorm(dim)
         self.layernorm_dense = nn.LayerNorm(dim)
 
     def forward(self, x):
-
         # attention layer
         pre_att = x
         post_att, _ = self.attention(x, x, x)
@@ -92,6 +93,7 @@ class Encoder(nn.Module):
         x = self.layernorm_dense(residual)
 
         return x
+
 
 class Model(nn.Module):
     def __init__(self, role):
@@ -130,7 +132,8 @@ class Model(nn.Module):
         encoded_opponent_vec = self.opponent_embedding(opponent_vec)
         encoded_feats_vec = self.game_feats_embedding(feats_vec)
 
-        all_inputs = [encoded_ball_vec, encoded_goal_vec, encoded_boost_vec, encoded_player_vec, encoded_opponent_vec, encoded_feats_vec]
+        all_inputs = [encoded_ball_vec, encoded_goal_vec, encoded_boost_vec, encoded_player_vec, encoded_opponent_vec,
+                      encoded_feats_vec]
         x = torch.stack(all_inputs, dim=0)  # shape (seq_len, batch, dim)
 
         # apply positional encoding
@@ -148,6 +151,15 @@ class Model(nn.Module):
 
         return x
 
+
 agent = Model(role='actor')
-actions = agent.forward(test_ball, test_goal, test_boost, test_player, test_opp, test_game_state)
-print(actions.detach())
+prev_time = time.time()
+sps = 0
+
+while True:
+    actions = agent.forward(test_ball, test_goal, test_boost, test_player, test_opp, test_game_state)
+    sps += 1
+    if time.time() - prev_time >= 1:
+        print(f'---model run {sps}itr/s---')
+        prev_time = time.time()
+        sps = 0
