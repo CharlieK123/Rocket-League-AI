@@ -16,10 +16,10 @@ PLAYER_VALUES = 21
 ACTION_STATES = 8  # number of output neurons (different actions to be taken)
 
 dim = 64  # global encoder vector dimensionality
-emb_hidden = 48  # obs embedding network hidden neuron count
+emb_hidden = 128  # obs embedding network hidden neuron count
 attention_heads = 4  # amount of heads used in MHA
 dense_hidden = 128  # encoder dense network hidden neuron count
-blocks = 1  # amount of encoder iterations done
+blocks = 2  # amount of encoder iterations done
 max_len = 6  # maximum number of context tokens used in one given input
 out_hidden = 128  # actor/critic network hidden neuron count
 
